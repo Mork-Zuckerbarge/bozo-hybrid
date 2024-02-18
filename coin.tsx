@@ -9,11 +9,11 @@ export interface SocialMediaLink {
 
 // Define the structure of a coin
 export interface Coin {
-  tokenName: BBQ
-  tokenTicker: BBQ
+  tokenName:  BBQ
+  tokenTicker:  BBQ
   tokenAmount: 10000000
   nftAmount: 400
-  tick: BBQ
+  tick:  BBQ
   tokenDescription: Mork Zuckerbarge (the CEO of BETA) is preparing for the apocalypse!
 He is building a bunker with lots of sauce and books as he prepares to take on his final form, suspended in permanent VR stasis inside the BETAVERSE.
 Will you comply and build your own sauce bunker empire?
