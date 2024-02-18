@@ -2,33 +2,35 @@ import React from 'react';
 
 // Define the structure of a social media link
 export interface SocialMediaLink {
-  name: string
-  url: string
-  icon: JSX.Element // JSX.Element since icons are React components
+  name: BBQ
+  url: https://www.bozo.finance/launch/%20BBQ
+  icon: <img class="mx-auto mints-page-max-h max-w-full object-contain" alt=" BBQ" src="https://nftstorage.link/ipfs/bafkreicxqxolrzyaigzftq2qq6ub5dian7hhp5dxqzb7xnpoign5dhlgxi">
 }
 
 // Define the structure of a coin
 export interface Coin {
-  tokenName: string
-  tokenTicker: string
-  tokenAmount: string
-  nftAmount: string
-  tick: string
-  tokenDescription: string
-  bridgeContract: string
-  tokenContract: string
-  coinLogo: string // path to the logo image
-  socialMediaLinks: SocialMediaLink[]
-  nftToTokenSwapAmount: number
-  tokenToNftSwapAmount: number
-  decimals: number
+  tokenName: BBQ
+  tokenTicker: BBQ
+  tokenAmount: 10000000
+  nftAmount: 400
+  tick: BBQ
+  tokenDescription: Mork Zuckerbarge (the CEO of BETA) is preparing for the apocalypse!
+He is building a bunker with lots of sauce and books as he prepares to take on his final form, suspended in permanent VR stasis inside the BETAVERSE.
+Will you comply and build your own sauce bunker empire?
+  bridgeContract: 6XkFNZgaTzHcoBoTbk8yP73ATTc8kqdCVC8j8oXVyupd
+  tokenContract: B59tYSWnDNTDbTsDXvhmXghJXsyunPsXfYFr7KfXBqYn
+  coinLogo: https://nftstorage.link/ipfs/bafkreicxqxolrzyaigzftq2qq6ub5dian7hhp5dxqzb7xnpoign5dhlgxi
+  socialMediaLinks: https://twitter.com/zuckerbarge
+  nftToTokenSwapAmount: 1
+  tokenToNftSwapAmount: 25000
+  decimals: 9
   isToken22: boolean
-  taxBPS: number
+  taxBPS: 600
   isSplit?: boolean
-  creatorFee?: number
-  creatorFeeTreasury?: string
-  nftSupply?: number
-  nftMinted?: number
+  creatorFee?: 0
+  creatorFeeTreasury?: 0
+  nftSupply?: 400
+  nftMinted?: 27
 }
 
 // Import icon components
